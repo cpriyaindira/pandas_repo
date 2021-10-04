@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-# adding new line
+
 excel_covid_df = pd.read_excel('covid_19_india.xlsx')
 
 parent_dir = (os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
